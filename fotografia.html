@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fotografia</title>
+        <link rel="stylesheet" href="css/fotografia.css">
+    </head>
+    <body>
+        
+        <!--menu horizontal-->
+<div class="barra">
+    <nav>
+    <ul>
+            <img src="imagem/logo1.png">
+    <li id="inicio" ><a href="fotografia.html">Home</li></a>
+    <li id="eventos"><a  href="">Eventos</li></a>
+    <li id="portfolio"><a href="">Portfólio</li></a>
+    <li id="cotacao"><a href="">Faça uma cotação</li></a>
+    <li id="contato"><a href="contato.html">Contato</li></a>
+    <li id="parceiros"><a href="parceiros.html">Parceiros</li></a>
+    <li id="sobre"><a href="sobre.html">Sobre</li></a><br>
+    
+    </nav> 
+    </ul>
+    </div><br>
+    <div class="fotos-casamento">
+            
+    <!--imagens principais-->
+    <img class="image" src="imagem/cas8.jpg">
+    <img class="image" src="imagem/img1.jpg">
+    <img class="image" src="imagem/img2.jpg">
+    <!--botão para mudar de fotos-->
+    <button id="bot1" class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button id="bot2" class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+    <script>
+    /*efeito de mudança de fotos javascript*/
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("image");
+ 
+  if (n > x.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+    }
+  x[slideIndex-1].style.display = "block"; 
+        }
+    </script>
+    <!--Apresentação do profissional-->
+    <div class="prof">
+    <h1 class="c1" >MARIA</h1>
+
+    <img class="maria" src="imagem/maria.jpg">
+    <p class="text1">Sempre fui apaixonada por arte desde pequena e comecei a pintar quadros aos 14. Anos mais tarde cursei Belas Artes na UFRJ, mas como sabia que viver de arte no Brasil não é tarefa fácil, cursei ao mesmo tempo Publicidade. E foi lá que descobri minha verdadeira paixão: a fotografia. Fiz inúmeros cursos, workshops e participei de muitos congressos de fotografia, quando enfim resolvi deixar a carreira de publicitária para me dedicar à minha verdadeira paixão. Comecei minha carreira como fotojornalista em 2007 e tive minhas fotos publicadas ao longo de 5 anos em diversos veículos, como os  jornais O Globo, O Dia e JB. Eu amava nunca saber o que faria no dia seguinte, mas acabei me rendendo à minha paixão: fotografar casamentos. Sou canceriana e romântica assumida e sempre me emociono em cada um que fotografo. Já perdi a conta das vezes em que me peguei enxugando as lágrimas por trás das lentes durante os votos dos noivos. Fotografei centenas de casamentos ao longo desses 12 anos de carreira não apenas em todo o Brasil, mas na Europa e Caribe também. Amo fotografar Destination Weddings! 
+
+            Faço parte das maiores e mais renomadas associações de fotógrafos de casamentos do mundo e ganhei o primeiro dos meus prêmios, o 1º lugar no Wedding Awards em 2014. Desde então divido a fotografia de casamentos com os ensaios de gestante e newborn, já que o casamento é apenas o começo de uma nova família.
+            
+    
+    </p>
+
+    <!--dicas de fotografia-->
+    <h1 class="c2">DICAS DE FOTOGRAFIA:</h1><h1> O que é ISO?</h1><img src="imagem/iso.jpg">
+    <p class="text2">Uma resposta simples diria que é a sensibilidade à luz do filme (em câmeras analógicas) ou do sensor (em câmera digitais). Isso significa que o ISO, que também é conhecido como ASA, mexe com a claridade da foto.
+
+            Por exemplo: com o ISO alto, a sensibilidade do filme/sensor aumenta e então é necessário menos luz para capturar uma imagem.
+            
+            Parece fácil, mas é difícil, pois cada situação pode exigir mudança no obturador e no diafragma, termos fotográficos que  iremos explicar nos capítulos abaixo.
+            
+            Como aumentar o ISO para fotografar: quanto maior, mais ruídos, ou pontinhos granulados, estarão presentes na foto. Isso significa que a nitidez diminui conforme o ISO aumenta. Por isso é importante ter um grande conhecimento na hora de mexer com isso.
+            
+            Em geral, é indicado que a não realizem alteração na sensibilidade da luz nas câmeras, mantendo o ISO em seu padrão de fábrica. Entretanto existem situação que, para manter a fotografia boa, é necessário fazer isso.
+            
+            Geralmente essas situações são apresentadas em cenários escuros, onde não é permitido acender luzes, nem utilizar o flash e que as imagens precisem ser fotografadas rapidamente, não sobrando tempo para poder alterar o diafragma e obturador.
+            
+            O ISO considerado normal é o 100, podendo aumentar para 200, 400, 800 e por aí vai. Uma explicação mais técnica de quando aumentar o ISO é uma situação com pouca luminosidade, sem tripé, com o objeto principal da fotografia estiver em constante movimento e o obturador em grande velocidade.
+            
+            Em outras palavras, geralmente o fotógrafo se apresenta a uma situação dessas já sabendo da possível mudança no ISO.
+            
+            Apesar de pouco influenciar no dia-a-dia do fotógrafo, é importante possuir um alto conhecimento sobre o ISO e todas as dicas de fotografia relacionadas a ele.
+            
+            Isso pode ser o diferencial de uma boa fotografia em uma situação adversa.</p>
+
+    <h1>O que é Obturador?</h1><img src="imagem/obturador.jpg">
+    <p class="text3">O obturador funciona como uma espécie de cortina que fica atrás da lente da câmera. Para a luz ser captada pela máquina  fotográfica é necessário que essa “cortina” se abra.
+
+            Então conhecer a a velocidade do obturador é de extrema importância para o fotógrafo.
+            
+            Os tempos de exposição, como são conhecidas as medidas do obturador, são muito variados, sendo divididos em velocidade alta, média e baixa.
+            
+            as altas são: 1/8000, 1/4000, 1/3200, 1/2500, 1/2000, 1/1600, 1/1250, 1/1000, 1/800,1/640, 1/500, 1/400, 1/320, 1/250;
+            as médias: 1/160, 1/125, 1/100, 1/80, 1/60, 1/50, 1/40, 1/30 e;
+            as baixas: 1/25, 1/20, 1/15, 1/13, 1/10, 1/8, 1/6, 1/5, 1/4, 1/3, ½ 1, 2, 5, 10, 30 e por aí vai.
+            Esses números simbolizam o tempo, sendo que o número 1 antes da barra equivale a um segundo.
+            
+            Ou seja, 1/100 significa que o tempo de exposição será de 0,01 segundo. Já na velocidade baixa é possível manter o obturador aberto por alguns segundos.
+            
+            Algumas câmeras permitem clicar uma primeira vez para abrir o obturador e uma segunda para fechá-lo. Quanto maior o tempo de exposição da foto, mais lenta é a velocidade do obturador.
+            
+            O tempo de exposição está diretamente relacionado com a quantidade de luz disponível, então para fotografar em um dia ensolarado, o ideal é diminuir o tempo de exposição. Deste modo as chances de queimar a fotografia é mínima.
+            
+            A velocidade do obturador também pode ser utilizada para outras técnicas, como tirar uma foto “tremida” ou uma fotografia com sombra de algo que está em alta velocidade.
+            
+            Exemplo são as clássicas fotos de corrida da Fórmula 1, onde é possível ver o “rastro” do carro. Isso acontece porque, ao diminuir o tempo de exposição, fotografamos o objeto em mais de um local, já que ele está em movimento.
+            
+            Caso tenha uma câmera fotográfica com a possibilidade de mudar a velocidade do obturador, pegue-a e fotografe os carros na rua, sempre diminuindo de um por um o tempo de exposição. Use estas dicas de fotografia e verá o resultado de imediato.
+            
+            Em termos mais simples, o obturador serve para para congelar a imagem, visto que quanto menor o tempo de exposição maiores são as chances de capturar a imagem com o objeto parado. Mas vai da técnica do fotografo decidir como vai usufruir desta função.</p>
+
+            <h1>O que é Diafragma?</h1><img src="imagem/diafragma.jpg">
+            <p class="text4">Esta é uma das dicas de fotografia mais importantes para quem deseja uma qualidade especial na foto.
+
+                    Quanto mais aberto, mais luz chega ao filme/sensor; quanto mais fechado, menos luz. É bem simples seu funcionamento, mas exige muito conhecimento para dominar suas técnicas com maestria.
+                    
+                    Para efeito comparativo, feche totalmente sua mão e olhe através da junção do dedão com o indicador. Agora vá abrindo devagar sua mão e observe como a luz chega aos olhos aos poucos, de acordo com o espaço disponível para ela passar. O diafragma funciona praticamente assim.
+                    
+                    A medida do diafragma é conhecida como f/números e é feita através de uma série numérica, com uma sequência padrão: f/1.4, f/2, f/2.8, f/4, f/5.6, f/8, f/11, f/16, f/22 e f/32.
+                    
+                    Quanto menos o número, mais o diâmetro de abertura do diafragma. Logo, quanto maior o número, menos luz passa pelas lentes da câmera.
+                    
+                    De maneira primitiva, é possível afirmar que o diafragma é responsável pela mudança manual na claridade de sua fotografia. Mas não apenas isso, o diafragma está ligado a outras características da fotografia.
+                    
+                    Apesar de as câmeras possuírem em suas lentes o controle do foco, que é dar maior nitidez para um determinado objeto na fotografia, alterar a abertura do diafragma também pode modifica o foco de local.
+                    
+                    Por isso é muito importante estudar o diafragma e estudar as dicas de fotografia, pois sem isso possivelmente sentirá extrema dificuldade em encontrar o foco perfeito para a fotografia.
+                    
+                    A profundidade de campo, que será abordada logo mais, também é modificada com a alteração do diafragma. Em resumo, isso serve para dar camadas a sua foto, tornando-a quase 3D.
+                    
+                    Como dito, apesar de ser bem simples, o diafragma interfere diretamente em sua fotografia. Um simples descuido pode queimar ou escurecer sua foto.
+                    
+                    O ideial é aprender a trabalhar o diafragma junto com o obturador, pois um depende do outro.</p>
+                </div>
+
+
+<!--rodapé-->
+<footer class="footer">
+        
+        <h1 class="c3">INFORMAÇÕES</h1>
+        <h5>HORÁRIOS DE ATENDIMENTO:</h5>
+        <p>Segunda à Sexta: 09h às 12h - 13h às 19h</p>
+        <p>Fone: (41) 99748-2668</p>
+        <p><a class="emaillink" href="mailto:contato@mariaphoto.com?Subject=%20Informações">contato@mariaphoto.com</p></a><br>
+        <p id="desde">"A fotografia deixou de ser uma paixão, e se tornou um amor."</p><br>
+        
+   
+   <a href="https://www.facebook.com/felipe.xavier.94402?ref=bookmarks"><img class="icone1"  src="imagem/face.png" ></a>
+        <a href="https://www.instagram.com/?hl=pt-br"><img src="imagem/insta.png"></a>
+<a href="https://twitter.com/felipexavs"><img src="imagem/tt.png"></a>
+
+</footer>
+    </body>
+</html>

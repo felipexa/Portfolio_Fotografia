@@ -1,0 +1,118 @@
+/*menu horizontal*/
+body{
+	margin:0;
+	/*cor de fundo do site*/
+	background: #f7d8b0c4;
+	/*ocultar barra de rolagem horizontal*/
+	overflow-x: hidden;
+	font-family: Courier New, monospace;
+}
+ul {
+	/*sem estilo de lista, remover marcadores "•"*/
+	list-style-type: none;
+	margin-left: 480px;;
+	padding: 0;
+	/*preencher a barra por completo overflow*/
+	overflow: hidden;
+	background-color: #f7d8b0c4;
+}
+/*posição da logo ao lado do menu*/
+ul img{
+	position:absolute;
+	left:10px;
+}
+li {
+	float: left;
+	text-align: center;
+	
+}
+li a {
+	/*display=exibição da barra*/
+	display: block;
+	color: rgb(71, 67, 63);
+	/*preenchimento, espaçamento1= tamanho da barra
+	espaçamento2=espaço entre as palavras*/
+	padding: 20px 20px;
+	text-decoration: none;
+	text-align: right;
+	
+}
+li a:hover {
+	/*mudar a cor quando passar o mouse*/
+	background-color: rgb(212, 108, 108);
+	
+}
+
+/*imagens*/
+.image{
+	height: 500px;
+	width:100%;
+	margin-bottom: 50px;
+}
+
+/*botao proxima foto*/
+/*esquerda*/
+#bot1{
+	position:absolute;
+	top:350px;
+	}
+/*direita*/
+#bot2{
+	position:absolute;
+	bottom:250px;
+	left:1325px;
+}
+	
+
+/*apresentao do profissional*/
+.prof{
+	text-align: center;
+	
+}
+/*cor texto MARIA*/
+.c1{
+	color: rgb(212, 108, 108);
+}
+/*cor texto DICAS DE FOTOGRAFIA*/
+.c2{
+	color:rgb(212, 108, 108);
+}
+/*cor texto INFORMAÇÕES*/
+.c3{
+	color:rgb(212, 108, 108);
+}
+/*descrição profissional*/
+.text1{
+	text-align:left;
+}
+/*ISO*/
+.text2{
+	text-align: left;
+}
+/*OBTURADOR*/
+.text3{
+	text-align: left;
+}
+/*DIAFRAGMA*/
+.text4{
+	text-align: left;
+}
+/*foto maria*/
+.maria{
+	width:80%;
+	height: 600px;
+}
+
+
+/*rodapé*/
+.footer{
+	margin-top: 100px;
+	text-align: center;
+} 
+/*email*/
+.emaillink
+{
+	text-decoration: none;
+	color:rgb(212, 108, 108);
+}
+

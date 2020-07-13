@@ -1,0 +1,72 @@
+/*menu horizontal*/
+body{
+	margin:0;
+	/*cor de fundo do site*/
+	background: #f7d8b0c4;
+	/*ocultar barra de rolagem horizontal*/
+	overflow-x: hidden;
+    font-family: Courier New, monospace;
+    text-align: center;
+}
+ul {
+	/*sem estilo de lista, remover marcadores "•"*/
+	list-style-type: none;
+	margin-left: 480px;;
+	padding: 0;
+	/*preencher a barra por completo overflow*/
+	overflow: hidden;
+	background-color: #f7d8b0c4;
+}
+/*posição da logo ao lado do menu*/
+ul img{
+	position:absolute;
+	left:10px;
+}
+li {
+	float: left;
+	text-align: center;
+	
+}
+li a {
+	/*display=exibição da barra*/
+	display: block;
+	color: rgb(71, 67, 63);
+	/*preenchimento, espaçamento1= tamanho da barra
+	espaçamento2=espaço entre as palavras*/
+	padding: 20px 20px;
+	text-decoration: none;
+	text-align: right;
+	
+}
+li a:hover {
+	/*mudar a cor quando passar o mouse*/
+	background-color: rgb(212, 108, 108);
+	
+}
+
+/*centralizar texto e imagem*/
+.t1{
+    text-align: center;
+}
+/*imagem*/
+.maria{
+	width:80%;
+	height: 600px;
+}
+/*texto esquerdo*/
+.text{
+    text-align: left;
+}
+
+/*rodapé*/
+.footer{
+	margin-top: 100px;
+	text-align: center;
+}
+/*email*/
+.emaillink
+{
+	text-decoration: none;
+	color:rgb(212, 108, 108);
+}
+

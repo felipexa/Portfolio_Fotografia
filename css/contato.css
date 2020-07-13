@@ -1,0 +1,94 @@
+/*menu horizontal*/
+body{
+	margin:0;
+	/*cor de fundo do site*/
+	background: #f7d8b0c4;
+	/*ocultar barra de rolagem horizontal*/
+	overflow-x: hidden;
+	font-family: Courier New, monospace;
+	text-align: center;
+}
+ul {
+	/*sem estilo de lista, remover marcadores "•"*/
+	list-style-type: none;
+	margin-left: 480px;;
+	padding: 0;
+	/*preencher a barra por completo overflow*/
+	overflow: hidden;
+	background-color: #f7d8b0c4;
+}
+/*posição da logo ao lado do menu*/
+ul img{
+	position:absolute;
+	left:10px;
+}
+li {
+	float: left;
+	text-align: center;
+	
+}
+li a {
+	/*display=exibição da barra*/
+	display: block;
+	color: rgb(71, 67, 63);
+	/*preenchimento, espaçamento1= tamanho da barra
+	espaçamento2=espaço entre as palavras*/
+	padding: 20px 20px;
+	text-decoration: none;
+	text-align: right;
+	
+}
+li a:hover {
+	/*mudar a cor quando passar o mouse*/
+	background-color: rgb(212, 108, 108);
+	
+}
+/*contato*/
+.c1{
+	color:rgb(212, 108, 108);
+}
+/*localização*/
+.c2{
+	color:rgb(212, 108, 108);
+}
+/*botao*/
+.botao{
+	font-weight: bold;
+	padding: 10px;
+	float: center;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #f7d8b0c4;
+	border-right-color: #f7d8b0c4;
+	border-bottom-color: #f7d8b0c4;
+	border-left-color: #f7d8b0c4;
+	color: black;
+	
+	background-color: #f7d8b0c4;
+	font-family: Courier New, monospace;
+}
+/*botao passar mouse em cima*/
+.botao:hover{
+	color: black;
+	background-color: rgb(212, 108, 108);
+	/*CSS 3*/
+	border-radius: 10px 0px 10px 0px;
+}
+
+
+
+
+/*rodapé*/
+.footer{
+	margin-top: 150px;
+	text-align: center;
+}
+/*email*/
+.emaillink
+{
+	text-decoration: none;
+	color:rgb(212, 108, 108);
+}
